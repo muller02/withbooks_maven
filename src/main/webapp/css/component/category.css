@@ -1,0 +1,12 @@
+.category-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px;
+
+    li {
+        background-color: #4f74f530;
+        margin: 2px;
+        border-radius: 20px;
+        padding: 3px 12px 3px 12px;
+    }
+}

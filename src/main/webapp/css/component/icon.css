@@ -1,0 +1,122 @@
+.icon{
+    background-repeat: no-repeat;
+    background-position: center;
+
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+
+
+.icon-alert{
+    background-image: url("/imgs/alert.svg");
+}
+
+.icon-search{
+    background-image: url("/imgs/search.svg");
+}
+
+.icon-sort{
+    background-image: url("/imgs/sort.svg");
+}
+
+.icon-go-to-top{
+    background-image: url("/imgs/go-to-top.svg");
+}
+
+.icon-mywith{
+    background-image: url("/imgs/mywith.svg");
+}
+
+.icon-booklog{
+    background-image: url("/imgs/booklog.svg");
+}
+
+.icon-home{
+    background-image: url("/imgs/home.svg");
+}
+
+.icon-search{
+    background-image: url("/imgs/search.svg");
+}
+
+.icon-mybook{
+    background-image: url("/imgs/my-library.svg");
+}
+
+.icon-publisher{
+    background-image: url("/imgs/publisher.svg");
+}
+
+.icon-publ-date{
+    background-image: url("/imgs/calander.svg");
+}
+
+.icon-cat{
+    background-image: url("/imgs/category.svg");
+}
+
+.icon-price{
+    background-image: url("/imgs/price.svg");
+}
+
+.icon-isbn{
+    background-image: url("/imgs/isbn.svg");
+}
+
+.icon-page{
+    background-image: url("/imgs/page.svg");
+}
+
+.icon-aladin{
+    background-image: url("/imgs/aladin.svg");
+}
+
+.icon-right-arrow{
+    background-image: url("/imgs/arrow.svg");
+}
+
+.icon-hamberger{
+   background-image: url("/imgs/hamberger.svg");
+}
+
+
+/* ----------util-------------- */
+
+.icon-position-left{
+    background-position: left;
+}
+
+.icon-position-right{
+    background-position: right;
+}
+
+.icon-position-top{
+    background-position: top;
+}
+
+.icon-position-16px{
+    background-position: 16px;
+}
+
+.text-rest{
+    text-indent: 0px;
+    overflow: visible;
+}
+
+.del-underline{
+    text-decoration: none;
+}
+
+.icon-size\:1 {
+    width: 16px;
+    height: 16px;
+}
+.icon-size\:2 {
+    width: 16px;
+    height: 18px;
+}
+.icon-size\:3 {
+    width: 32px;
+    height: 32px;
+}

@@ -1,0 +1,21 @@
+:root{
+    --size-1:12px;
+    --size-2:14px;
+    --size-3:15px;
+    --size-4:16px;
+    --size-5:18px;
+    --size-6:20px
+}
+
+main{
+padding-bottom: 64px;
+height: 100%;
+}
+
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+
+}

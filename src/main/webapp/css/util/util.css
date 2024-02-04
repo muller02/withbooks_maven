@@ -1,0 +1,25 @@
+.d-none{
+    display: none;
+}
+.h\:1,
+.height\:1{
+    height: var(--h-1);
+}
+
+.h\:2,
+.height\:2{
+    height: var(--h-2);
+}
+
+.icon-color\:1{
+    background-color: var(--color-base-8);
+}
+
+.display-inline-block{
+    display: inline-block
+    ;
+}
+
+.border-none{
+    border: none;
+}

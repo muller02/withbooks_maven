@@ -1,0 +1,94 @@
+/* newtil link url */
+@import url(https://cdn.jsdelivr.net/npm/newtil-css@latest/dist/style.css);
+
+
+/* 변수선언  */
+:root{
+
+    /* main 컬러 */
+    --color-main-1: #D8E0FD;
+    --color-main-2: #8BA3F8;
+    --color-main-3: #4F74F5;
+    --color-main-4: #0D3DE7;
+    --color-main-5: #09289A;
+    --color-main-6: #04144D;
+    --color-main-7: #010513;
+
+
+    /* accent 컬러 */
+    --color-accent-1: #FBC6C6;
+    --color-accent-2: #E41111;
+    --color-accent-3: #390404;
+
+    
+    /* base 컬러 */
+    /* base컬러는 newtil.css에 있음 */
+
+    /* --color-base-1: #ffffff;
+    --color-base-2: #e4e7ea;
+    --color-base-3: #dee2e6;
+    --color-base-4: #ced4da;
+    --color-base-5: #adb5bd;
+    --color-base-6: #868e96;
+    --color-base-7: #495057;
+    --color-base-8: #343a40;
+    --color-base-9: #1a1c20;
+    --color-base-10: #000000; */
+}
+
+
+
+
+
+
+
+
+
+/* ========================util==================== */
+
+/*--------------- 컬러------------------- */
+
+/* 배경색 */
+/* .background-color\:main-1 ~ main-3은 newtil.css에 있음 */
+.background-color\:main-4,
+.bg-color\:main-4{
+    background-color: var(--color-main-4);
+}
+
+.background-color\:main-5,
+.bg-color\:main-5{
+    background-color: var(--color-main-5);
+}
+
+.background-color\:main-6,
+.bg-color\:main-6{
+    background-color: var(--color-main-6);
+}
+
+.background-color\:main-7,
+.bg-color\:main-7{
+    background-color: var(--color-main-7);
+}
+
+
+/* 글자색 */
+/* .color\:main-1 ~ main-3는 newtil.css에 있음 */
+.color\:main-4,
+.c\:main-4{
+    color: var(--color-main-4);
+}
+
+.color\:main-5,
+.c\:main-5{
+    color: var(--color-main-5);
+}
+
+.color\:main-6,
+.c\:main-6{
+    color: var(--color-main-6);
+}
+
+.color\:main-7,
+.c\:main-7{
+    color: var(--color-main-7);
+}

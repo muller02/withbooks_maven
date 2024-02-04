@@ -1,0 +1,52 @@
+
+/* -----------------font-family-------------- */
+.font-family-sans{
+    font-family: sans-serif;
+}
+/* -----------------font-weight-------------- */
+.font-weight-lighter{
+    font-weight: lighter;
+}
+
+.font-weight-normal{
+    font-weight: normal;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+/* -----------------font-size-------------- */
+
+.font-size-1{
+    font-size: var(--size-1);
+}
+
+.font-size-2{
+    font-size: var(--size-2);
+}
+
+.font-size-3{
+    font-size: var(--size-3);
+}
+
+.font-size-4{
+    font-size: var(--size-4);
+}
+
+.font-size-5{
+    font-size: var(--size-5);
+}
+
+.font-size-6{
+    font-size: var(--size-6);
+}
+
+/* ------color--------- */
+
+a:link{
+    
+    color: black;
+}
+a:visited { color:black;
+ }

@@ -1,0 +1,29 @@
+.header{
+    position: sticky;
+    display: flex;
+    height: 60px;
+
+    background-color: #fff;
+
+    align-items: center;
+
+    border-bottom: 2px solid black;
+
+    top: 0;
+
+    z-index: 1;
+}
+
+    .header>*{
+        margin-left: auto;
+    }
+    
+/* ========================content-box=========== */
+
+/* ---------------------header----------------- */
+
+.header .icon-alert{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
