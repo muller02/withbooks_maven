@@ -2,15 +2,15 @@
 <!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="kr.withbooks.web.repository.BookRepository">
+<mapper namespace="kr.withbooks.repository.BookRepository">
 
 
-	<select id="findAll" resultType="kr.withbooks.web.entity.Book">
+	<select id="findAll" resultType="kr.withbooks.entity.Book">
 		select * from Book
 	</select>
 	
 	
-	<select id="findById" resultType="kr.withbooks.web.entity.Book" parameterType="int">
+	<select id="findById" resultType="kr.withbooks.entity.Book" parameterType="int">
 				select * from Book where id = #{id}
 	</select>
 	
@@ -18,7 +18,7 @@
 	
 	
 	
-<insert id="save" parameterType="kr.withbooks.web.entity.Book">
+<insert id="save" parameterType="kr.withbooks.entity.Book">
     INSERT INTO Book (ID, TITLE, IMG, AUTHOR, ISBN, PUBLISHER, publication_date, INTRO, PRICE, PAGE)
     VALUES (#{id}, #{title}, #{img}, #{author}, #{isbn}, #{publisher}, #{publicationDate, jdbcType=TIMESTAMP}, #{intro}, #{price}, #{page})
 </insert>
@@ -26,7 +26,7 @@
 
 
 
-<update id="update" parameterType="kr.withbooks.web.entity.Book">
+<update id="update" parameterType="kr.withbooks.entity.Book">
 
 UPDATE BOOK SET TITLE=#{title}, IMG=#{img}, AUTHOR=#{author}, ISBN=#{isbn}, PUBLISHER=#{publisher}, PUBLICATION_DATE = #{publicationDate}, INTRO = #{intro}, PRICE=#{price}, PAGE=#{page} WHERE ID = #{id}
 
