@@ -8,7 +8,7 @@ import jakarta.servlet.http.HttpServlet;
 //test222 
 //
 public class MybatisContext{
-	
+//	cho
 
 	private static SqlSessionFactory sqlSessionFactory;
 
