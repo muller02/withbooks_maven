@@ -13,7 +13,7 @@ import jakarta.servlet.http.HttpServlet;
 import kr.withbooks.context.MybatisContext;
 
 
-@WebServlet(urlPatterns = {"/"}, loadOnStartup = 1)
+//@WebServlet(urlPatterns = {"/"}, loadOnStartup = 1)
 public class MybatisFactoryServlet extends HttpServlet {
 	
 	@Override
