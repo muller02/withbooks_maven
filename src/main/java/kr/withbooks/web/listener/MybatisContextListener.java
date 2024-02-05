@@ -12,7 +12,7 @@ public class MybatisContextListener implements ServletContextListener {
 		System.out.println("톰캣이 시작되는겨 ???");
 		
 		try {
-			Class.forName("kr.withbooks.web.context.MybatisContext");
+			Class.forName("kr.withbooks.context.MybatisContext");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
