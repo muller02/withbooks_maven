@@ -1,4 +1,4 @@
-.icon{
+.icon {
     background-repeat: no-repeat;
     background-position: center;
 
@@ -6,105 +6,117 @@
     overflow: hidden;
 }
 
-
-
-.icon-alert{
+.icon-alert {
     background-image: url("/imgs/alert.svg");
 }
 
-.icon-search{
+.icon-search {
     background-image: url("/imgs/search.svg");
 }
 
-.icon-sort{
+.icon-sort {
     background-image: url("/imgs/sort.svg");
 }
 
-.icon-go-to-top{
+.icon-go-to-top {
     background-image: url("/imgs/go-to-top.svg");
 }
 
-.icon-mywith{
+.icon-mywith {
     background-image: url("/imgs/mywith.svg");
 }
 
-.icon-booklog{
+.icon-booklog {
     background-image: url("/imgs/booklog.svg");
 }
 
-.icon-home{
+.icon-home {
     background-image: url("/imgs/home.svg");
 }
 
-.icon-search{
+.icon-search {
     background-image: url("/imgs/search.svg");
 }
 
-.icon-mybook{
+.icon-mybook {
     background-image: url("/imgs/my-library.svg");
 }
 
-.icon-publisher{
+.icon-publisher {
     background-image: url("/imgs/publisher.svg");
 }
 
-.icon-publ-date{
+.icon-publ-date {
     background-image: url("/imgs/calander.svg");
 }
 
-.icon-cat{
+.icon-cat {
     background-image: url("/imgs/category.svg");
 }
 
-.icon-price{
+.icon-price {
     background-image: url("/imgs/price.svg");
 }
 
-.icon-isbn{
+.icon-isbn {
     background-image: url("/imgs/isbn.svg");
 }
 
-.icon-page{
+.icon-page {
     background-image: url("/imgs/page.svg");
 }
 
-.icon-aladin{
+.icon-aladin {
     background-image: url("/imgs/aladin.svg");
 }
 
-.icon-right-arrow{
+.icon-right-arrow {
     background-image: url("/imgs/arrow.svg");
 }
 
-.icon-hamberger{
-   background-image: url("/imgs/hamberger.svg");
+.icon-hamberger {
+    background-image: url("/imgs/hamberger.svg");
+}
+.icon-sort-card {
+    background-image: url("/imgs/icon/sort-card.svg");
 }
 
+.icon-sort-list {
+    background-image: url("/imgs/icon/sort-list.svg");
+}
+
+.icon-like {
+    background-image: url("/imgs/icon/like.svg");
+}
+
+.icon-coment {
+    background-image: url("/imgs/icon/coment.svg");
+}
 
 /* ----------util-------------- */
 
-.icon-position-left{
+.icon-position-left {
     background-position: left;
 }
 
-.icon-position-right{
+.icon-position-right {
     background-position: right;
 }
 
-.icon-position-top{
+.icon-position-top {
     background-position: top;
 }
 
-.icon-position-16px{
+.icon-position-16px {
     background-position: 16px;
 }
 
-.text-rest{
+.text-rest {
     text-indent: 0px;
     overflow: visible;
 }
 
-.del-underline{
+.del-underline {
     text-decoration: none;
 }
 

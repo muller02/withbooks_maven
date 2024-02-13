@@ -19,6 +19,7 @@
     .header>*{
         margin-left: auto;
     }
+   
     
 /* ========================content-box=========== */
 
@@ -28,4 +29,8 @@
     display: inline-block;
     width: 32px;
     height: 32px;
+     position: absolute;
+    top: 16px;
+    right:4px;
+   
 }
