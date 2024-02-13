@@ -7,27 +7,10 @@
     --size-6: 20px;
 }
 
-<<<<<<< HEAD
-main {
-    /* padding-bottom: 64px; */
-    /* height: 100%; */
-=======
-main{
-padding-bottom: 64px;
-height: 100%;
-padding: 0px 20px;
->>>>>>> branch 'main' of https://github.com/muller02/withbooks_maven.git
-}
-
 html {
     height: 100%;
 }
-body {
+main {
     height: 100%;
-<<<<<<< HEAD
+    padding: 0px 20px 64px 20px;
 }
-=======
-
-}
-
->>>>>>> branch 'main' of https://github.com/muller02/withbooks_maven.git
