@@ -9,14 +9,31 @@
     <title>Document</title>
     <link href="/css/reset.css" type="text/css" rel="stylesheet" />
     <link href="/css/style.css" type="text/css" rel="stylesheet" />
+
+
+
     <link href="/css/component/header/header.css" type="text/css" rel="stylesheet" />
     <link href="/css/component/main-menu/main-menu.css" type="text/css" rel="stylesheet" />
     <link href="/css/component/category/category.css" type="text/css" rel="stylesheet" />
+
+
+
     <link href="/css/components/layout.css" type="text/css" rel="stylesheet" />
+
+
+<!--     <link href="/css/component/category.css" type="text/css" rel="stylesheet" /> -->
+    <!-- <link href="/css/component/list-icon/icon.css" type="text/css" rel="stylesheet" /> -->
+
+
     <link href="/css/book/list.css" type="text/css" rel="stylesheet" />
+
+
+
     <link href="/css/icon.css" type="text/css" rel="stylesheet" />
     <link href="/css/font.css" type="text/css" rel="stylesheet" />
     <link href="/css/util.css" type="text/css" rel="stylesheet" />
+
+
     <link href="/css/util/util.css" type="text/css" rel="stylesheet" />
     <link href="/css/component/icon.css" type="text/css" rel="stylesheet" />
 
@@ -40,7 +57,6 @@
     <link rel="stylesheet" href="/css/component/catecomponent.css" />
     <!--   뉴렉처 css
     <linkrel="stylesheet" type="text/css"href="https://cdn.jsdelivr.net/npm/newtil-css@latest/dist/style.css" /> -->
->>>>>>> branch 'main' of https://github.com/muller02/withbooks_maven.git
 </head>
 
 <body>
