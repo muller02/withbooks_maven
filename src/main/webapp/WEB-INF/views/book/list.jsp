@@ -7,13 +7,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
+    <link href="/css/reset.css" type="text/css" rel="stylesheet" />
     <link href="/css/style.css" type="text/css" rel="stylesheet" />
+<<<<<<< HEAD
+    <link href="/css/component/header/header.css" type="text/css" rel="stylesheet" />
+    <link href="/css/component/main-menu/main-menu.css" type="text/css" rel="stylesheet" />
+    <link href="/css/component/category/category.css" type="text/css" rel="stylesheet" />
+=======
     <link href="/css/components/layout.css" type="text/css" rel="stylesheet" />
 
-    <link href="/css/component/category.css" type="text/css" rel="stylesheet" />
+<!--     <link href="/css/component/category.css" type="text/css" rel="stylesheet" /> -->
     <!-- <link href="/css/component/list-icon/icon.css" type="text/css" rel="stylesheet" /> -->
+>>>>>>> branch 'main' of https://github.com/muller02/withbooks_maven.git
     <link href="/css/book/list.css" type="text/css" rel="stylesheet" />
+<<<<<<< HEAD
+    <link href="/css/icon.css" type="text/css" rel="stylesheet" />
+    <link href="/css/font.css" type="text/css" rel="stylesheet" />
+    <link href="/css/util.css" type="text/css" rel="stylesheet" />
+=======
     <link href="/css/util/util.css" type="text/css" rel="stylesheet" />
     <link href="/css/component/icon.css" type="text/css" rel="stylesheet" />
 
@@ -34,9 +45,10 @@
     <link rel="stylesheet" href="/css/font.css" />
     <link rel="stylesheet" href="/css/style.css" />
 
-
+    <link rel="stylesheet" href="/css/component/catecomponent.css" />
     <!--   뉴렉처 css
     <linkrel="stylesheet" type="text/css"href="https://cdn.jsdelivr.net/npm/newtil-css@latest/dist/style.css" /> -->
+>>>>>>> branch 'main' of https://github.com/muller02/withbooks_maven.git
 </head>
 
 <body>
@@ -47,79 +59,43 @@
     </header>
 
     <main class="main" id="main">
-        <section class="search-filter">
-            <h1 class="filter-title">책검색필터</h1>
+       <div class="main-under-con">
+        <section class="search-con">
+            <h1 class="d-none">검색</h1>
+            <form class="search-box" action="df">
+              <input type="text">
+              <div><a href="" class="search"></a></div>
+      
+      
+              </form>
+        </section>
+        <section class="cate-con">
+            <h1 class="d-none">카테고리</h1>
 
-            <form action="">
-                <fieldset class="keyword-field">
-                    <legend class="field-title">필터목록</legend>
-                    <div class="keyword-content">
-                        <input type="text" name="search-keyword" class="search-keyword border-none" />
-                        <button type="submit" onclick="alert('검색완료!')" class="icon icon-search icon-size:1 border-none">
-                            검색버튼
-                        </button>
-                    </div>
-                </fieldset>
+            <ul>
+                <li><a href="">베스트셀러</a></li>
+                <li><a href="">경제/경영</a></li>
+                <li><a href="">인문</a></li>
+                <li><a href="">과학</a></li>
+                <li><a href="">소설</a></li>
+                <li><a href="">사회/정치</a></li>
+                <li><a href="">시/희곡</a></li>
+                <li><a href="">자기계발</a></li>
+                <li><a href="">여행</a></li>
+                <li><a href="">컴퓨터/IT</a></li>
+                <li><a href="">기타</a></li>
 
-                <ul class="category-content">
-                    <li>
-                        <a href=""><span>어린이</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span>에세이</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span>소설/시/희곡</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span>자기계발</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span>종교</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span>자연과학</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span>잡지</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span>전집</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span>청소년</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span>초등참고서</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span>중고등참고서</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span>인물</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span>유아</span></a>
-                    </li>
-                    <li>
-                        <a href=""><span>수험서 자격증</span></a>
-                    </li>
-                </ul>
-            </form>
 
-            <div class="dashed-line"></div>
+            </ul>
         </section>
 
-        <section class="sort-container">
-            <h1>정렬하기</h1>
+        <div class="reset-con">
+         <div class="reset-box"><a href="d" class=""><img src="\imgs\reset.svg" class="reset-img"><span class="reset-text">초기화</span></a></div>
+        </div>
 
-            <div>
-                <a href="">
-                    <span class="icon icon-sort icon-size:1 display-inline-block"></span>
-                    <span>최신순</span>
-                </a>
-            </div>
-        </section>
+      <div class="border"></div>
+      
+    </div>
 
         <section class="book-list">
             <h1>북리스트</h1>
