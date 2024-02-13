@@ -18,7 +18,7 @@ public class MybatisContextListener implements ServletContextListener {
 			e.printStackTrace();
 		}
 	}
-	//주석2
+	//주석3
 	
 	@Override
 	public void contextDestroyed(ServletContextEvent sce) {

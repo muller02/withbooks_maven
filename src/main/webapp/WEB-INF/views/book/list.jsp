@@ -7,32 +7,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
+    <link href="/css/reset.css" type="text/css" rel="stylesheet" />
     <link href="/css/style.css" type="text/css" rel="stylesheet" />
+    <link href="/css/component/header/header.css" type="text/css" rel="stylesheet" />
+    <link href="/css/component/main-menu/main-menu.css" type="text/css" rel="stylesheet" />
+    <link href="/css/component/category/category.css" type="text/css" rel="stylesheet" />
+    <link href="/css/book/list.css" type="text/css" rel="stylesheet" />
+    <link href="/css/icon.css" type="text/css" rel="stylesheet" />
+    <link href="/css/font.css" type="text/css" rel="stylesheet" />
+    <link href="/css/util.css" type="text/css" rel="stylesheet" />
+    
+
+    <!-- <link href="/css/style.css" type="text/css" rel="stylesheet" />
     <link href="/css/components/layout.css" type="text/css" rel="stylesheet" />
 
     <link href="/css/component/category.css" type="text/css" rel="stylesheet" />
-    <!-- <link href="/css/component/list-icon/icon.css" type="text/css" rel="stylesheet" /> -->
+    <link href="/css/component/list-icon/icon.css" type="text/css" rel="stylesheet" />
     <link href="/css/book/list.css" type="text/css" rel="stylesheet" />
     <link href="/css/util/util.css" type="text/css" rel="stylesheet" />
-    <link href="/css/component/icon.css" type="text/css" rel="stylesheet" />
+    <link href="/css/component/icon.css" type="text/css" rel="stylesheet" /> -->
 
     <!--  -->
 
     <!-- header + main-menu css -->
-    <link rel="stylesheet" href="/css/component/icon.css" />
+    <!-- <link rel="stylesheet" href="/css/component/icon.css" /> -->
 
 
     <!-- header css -->
-    <link rel="stylesheet" href="/css/component/header.css" />
+    <!-- <link rel="stylesheet" href="/css/component/header.css" /> -->
 
 
     <!-- main-menu css -->
-    <link rel="stylesheet" href="/css/reset.css" />
+   <!--  <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="/css/component/main-menu.css" />
     <link rel="stylesheet" href="/css/util/util.css" />
     <link rel="stylesheet" href="/css/font.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" /> -->
 
 
     <!--   뉴렉처 css
