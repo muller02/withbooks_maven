@@ -10,23 +10,15 @@
     <title>Document</title>
 
 
-    <link rel="stylesheet" href="/css/book/detail.css" type="text/css">
-    
-    <!--  -->
-    <!-- header + main-menu css -->
-    <link rel="stylesheet" href="/css/component/icon.css" />
-
-
-    <!-- header css -->
-    <link rel="stylesheet" href="/css/component/header.css" />
-
-
-    <!-- main-menu css -->
-    <link rel="stylesheet" href="/css/reset.css" />
-    <link rel="stylesheet" href="/css/component/main-menu.css" />
-    <link rel="stylesheet" href="/css/util/util.css" />
-    <link rel="stylesheet" href="/css/font.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link href="/css/reset.css" type="text/css" rel="stylesheet" />
+    <link href="/css/style.css" type="text/css" rel="stylesheet" />
+    <link href="/css/component/header/header.css" type="text/css" rel="stylesheet" />
+    <link href="/css/component/main-menu/main-menu.css" type="text/css" rel="stylesheet" />
+    <link href="/css/component/category/category.css" type="text/css" rel="stylesheet" />
+    <link href="/css/book/detail.css" type="text/css" rel="stylesheet" />
+    <link href="/css/icon.css" type="text/css" rel="stylesheet" />
+    <link href="/css/font.css" type="text/css" rel="stylesheet" />
+    <link href="/css/util.css" type="text/css" rel="stylesheet" />
     
 </head>
 <body>

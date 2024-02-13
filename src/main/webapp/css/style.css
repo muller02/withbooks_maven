@@ -10,6 +10,7 @@
 main{
 padding-bottom: 64px;
 height: 100%;
+padding: 0px 20px;
 }
 
 html{
@@ -19,3 +20,4 @@ body{
     height: 100%;
 
 }
+
