@@ -18,7 +18,7 @@ public class AdminService {
 		SqlSessionFactory factory = MybatisContext.getSqlSessionFactory();
 		 session = factory.openSession();
 		bookRepository = session.getMapper(BookRepository.class);
-		System.out.print("세션접속완료");
+		System.out.print("세션접속완료");                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
 
 	}
 
