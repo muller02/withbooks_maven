@@ -7,30 +7,34 @@
 
     align-items: center;
 
-    border-bottom: 2px solid black;
+  
 
     top: 0;
 	
+    justify-content: center;
+
     z-index: 1;
     
     flex-shrink: 0;
 }
 
-    .header>*{
-        margin-left: auto;
-    }
+   
    
     
 /* ========================content-box=========== */
 
 /* ---------------------header----------------- */
 
+
+.header div{
+    position: absolute;
+
+    right:4px;
+}
 .header .icon-alert{
     display: inline-block;
     width: 32px;
     height: 32px;
-     position: absolute;
-    top: 16px;
-    right:4px;
+ 
    
 }
