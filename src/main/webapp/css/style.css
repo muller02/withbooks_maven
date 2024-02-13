@@ -1,21 +1,17 @@
-:root{
-    --size-1:12px;
-    --size-2:14px;
-    --size-3:15px;
-    --size-4:16px;
-    --size-5:18px;
-    --size-6:20px
+:root {
+    --size-1: 12px;
+    --size-2: 14px;
+    --size-3: 15px;
+    --size-4: 16px;
+    --size-5: 18px;
+    --size-6: 20px;
 }
 
-main{
-padding: 0 20px 64px 20px;
-height: 100%;
-
-}
-
-html{
+main {
+    padding: 0 20px 64px 20px;
     height: 100%;
-
 }
 
-
+html {
+    height: 100%;
+}
