@@ -44,9 +44,9 @@
 
 /* ------color--------- */
 
-a:link{
+a:link,
+a:visited{
     
     color: black;
 }
-a:visited { color:black;
- }
+ 
