@@ -1,10 +1,10 @@
 :root{
-    --size-1:12px;
-    --size-2:14px;
-    --size-3:15px;
+	--size-1:10px;
+    --size-2:12px;
+    --size-3:14px;
     --size-4:16px;
     --size-5:18px;
-    --size-6:20px
+    --size-6:20px;
 }
 
 main{
@@ -15,7 +15,6 @@ height: 100%;
 
 html{
     height: 100%;
-
 }
 
 
