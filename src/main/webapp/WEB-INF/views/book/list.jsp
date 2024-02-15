@@ -61,7 +61,7 @@
 <body>
 
     <header class="header">
-        <h1 class="font-family-sans font-weight-bold font-size-5">책 상세</h1>
+        <h1 class="font-family-sans font-weight-bold font-size:5">책 상세</h1>
         <div><a class="icon icon-alert" href="">알림</a></div>
     </header>
 
@@ -126,14 +126,14 @@
     <nav class="main-menu-bar">
         <h1 class="d-none">메인메뉴목록</h1>
         <ul class="main-menu-bar-list">
-            <li><a class="icon icon-mywith icon-position-top font-family-sans font-weight-bold font-size-1 text-rest del-underline"
+            <li><a class="icon icon-mywith icon-position-top font-family-sans font-weight-bold font-size:2 text-rest del-underline"
                     href="">마이위드</a></li>
-            <li><a class="icon icon-booklog icon-position-top  font-family-sans font-weight-bold font-size-1  text-rest del-underline"
+            <li><a class="icon icon-booklog icon-position-top  font-family-sans font-weight-bold font-size:2  text-rest del-underline"
                     href="">북로그</a></li>
             <li><a class="icon icon-home" href="">홈</a></li>
-            <li><a class="icon icon-search icon-position-top  font-family-sans font-weight-bold font-size-1  text-rest del-underline"
+            <li><a class="icon icon-search icon-position-top  font-family-sans font-weight-bold font-size:2  text-rest del-underline"
                     href="">책 검색</a></li>
-            <li><a class="icon icon-mybook icon-position-top  font-family-sans font-weight-bold font-size-1  text-rest del-underline"
+            <li><a class="icon icon-mybook icon-position-top  font-family-sans font-weight-bold font-size:2  text-rest del-underline"
                     href="">내 서재</a></li>
         </ul>
     </nav>
