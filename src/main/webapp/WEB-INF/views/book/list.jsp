@@ -11,7 +11,6 @@
     <link href="/css/style.css" type="text/css" rel="stylesheet" />
 
 
-
     <link href="/css/component/header/header.css" type="text/css" rel="stylesheet" />
     <link href="/css/component/main-menu/main-menu.css" type="text/css" rel="stylesheet" />
     <link href="/css/component/category/category.css" type="text/css" rel="stylesheet" />
